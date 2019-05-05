@@ -12,5 +12,5 @@ input.to_i - 1
 end
 
 def move(board, index, character = "X")
-puts
+board[index] = current_player
 end
